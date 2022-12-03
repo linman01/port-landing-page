@@ -1,0 +1,18 @@
+/* colors
+    --pacific-blue: #53aebc;
+    --powder-blue: #bbdfde;
+    --white: #ffffff; 
+*/
+
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Element Selectors */
+body {
+    
+}
+
+/* Class & ID Selectors */
