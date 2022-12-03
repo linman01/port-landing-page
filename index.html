@@ -11,14 +11,14 @@
         <link rel="stylesheet" href="./assets/css/style.css" />
     </head>
 
-    <body>
+    <body id="top-page">
         <!-- Header, Navigation w/ links -->
-        <header>
+        <header id="nav-header">
             <nav>
                 <ul>
-                    <li>Github</li>
-                    <li>Linkedin</li>
-                    <li>Contact Me</li>
+                    <li><a class="nav-link" href="https://github.com/linman01">Github</a></li>
+                    <li><a class="nav-link" href="https://www.linkedin.com/in/lauraeinman/">Linkedin</a></li>
+                    <li><a class="nav-link" href="#contact-section">Contact Me</a></li>
                 </ul>
             </nav>
         </header>
@@ -26,26 +26,34 @@
         <!-- Main content -->
         <main>
             <!-- (title, image/figure, image/figure caption) -->
-            <h1>My Portfolio</h1>
+            <h1>Laura Inman</h1>
+            <h2>My Portfolio</h2>
             <figure>
                 <img src="./assets/images/coming-soon.png" alt="Paint splashed image with the words coming soon." />
                 <figcaption>Coming Soon</figcaption>
             </figure>
 
             <!-- Contact section -->
-            <section>
+            <section id="contact-section">
                 <!-- (section header) -->
-                <h2>Contact Me</h2>
+                <h2 class="section-h2">Contact Me</h2>
                 <!-- (contact form w/ inputs & submit button) -->
                 <form action="">
-                    form here
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required placeholder="First Last"/>
+                    <br />
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="user@example.com" required />
+                    <br />
+                    <input id="submit-button" type="submit" value="Submit">
                 </form>
+                <a href="#top-page">Return to top</a>
             </section>
         </main>
 
         <!-- Footer -->
         <footer>
-            <p>footer here</p>
+            <p>&copy; 2022 <a href="#">LauraInman.com</a></p>
         </footer>
     </body>
 
