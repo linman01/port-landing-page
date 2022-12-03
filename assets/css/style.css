@@ -4,6 +4,9 @@
     --white: #ffffff; 
 */
 
+/* Font Family */
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
 /* Universal Selector */
 * {
     margin: 0;
@@ -12,7 +15,13 @@
 
 /* Element Selectors */
 body {
-    
+    font-family: 'Caveat', cursive;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
 }
 
 /* Class & ID Selectors */
