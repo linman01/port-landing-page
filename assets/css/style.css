@@ -1,11 +1,10 @@
 /* colors
     --pacific-blue: #4fa2aee9;
-    --powder-blue: #bbdfde;
+    --powder-blue: #c4eae9;
     --white: #ffffff; 
 */
 
 /* Font Family */
-@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
 /* --------- Universal Selector --------- */
@@ -16,23 +15,17 @@
 
 /* --------- Element Selectors --------- */
 body {
-    /* font-family: 'Caveat', cursive; */
-
     font-family: 'Indie Flower', cursive;
-    font-size: 20px;
-    height: 1800px;
     margin: 0 auto;
-
     text-align: center;
 }
 
 header {
- background-color: #4fa2aee9;
-        position: fixed;
-            top: 0;
-            z-index: 10;
-            width: 100%;
-     
+    background-color: #4fa2aee9;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
 }
 
 footer {
@@ -40,58 +33,25 @@ footer {
 }
 
 /* Navigation */
-
-
 nav ul {
     padding: 15px 0;
-   
-
 }
 
 nav ul li {
     display: inline;
     margin: 10px;
-
-
-
 }
 
-.nav-link {
-    color: #fff;
-    font-weight: bold;
-    padding: 30px;
-
-
-}
-
-.nav-link:hover {
-    color: #c4eae9
-}
-
+/* Link styles */
 a {
     color: #4fa2aee9;
     text-decoration: none;
-
 }
 
 a:hover {
-    color: black;
+    color: #000;
 }
 
-/* form */
-form {
-    background-color: #c4eae9;
-    width: 50%;
-    text-align: center;
-    margin: 0 auto 10px;
-    padding: 20px 0 10px;
-    
-}
-
-form input {
-    margin-bottom: 8px;
-    padding: 2px;
-}
 
 /* Headings */
 h1,
@@ -101,11 +61,49 @@ h2 {
 
 h1 {
     margin-top: 100px;
-    margin-bottom: -15px;
+    margin-bottom: 0px;
 }
 
-.section-h2 {border-top: 1px solid #4fa2aee9;
-    padding-top: 5px;
+h2 {
+    margin-top: 0;
+}
+
+/* Image style */
+figure {
+    margin-top: 20px;
+}
+
+/* form */
+form {
+    background-color: #c4eae9;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto 10px;
+    padding: 20px 0 10px;
+}
+
+form input {
+    margin-bottom: 8px;
+    padding: 2px;
+}
+
+/* --------- Class & ID Selectors --------- */
+
+/* Navigation styles */
+.nav-link {
+    color: #fff;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.nav-link:hover {
+    color: #c4eae9
+}
+
+/* Section header */
+.section-h2 {
+    border-top: 1px solid #4fa2aee9;
+    padding-top: 10px;
     width: 50%;
     margin-top: 30px;
     margin-bottom: 20px;
@@ -113,24 +111,9 @@ h1 {
     margin-right: auto;
 }
 
-figure {
-    margin-top: 20px;
-}
-
-
-/* --------- Class & ID Selectors --------- */
-#nav-header {
-    
-   
-
-}
-
-#contact-form {
-   
-}
-
+/* Button styles */
 #submit-button {
     background-color: #4fa2aee9;
-    color: white;
+    color: #fff;
     padding: 3px;
 }
